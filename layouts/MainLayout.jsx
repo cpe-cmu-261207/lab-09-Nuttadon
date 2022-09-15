@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export default function (props) {
   return (
-    <div className="d-flex justify-content-center">
+    <div>
       <Navbar />
       {props.children}
       <Footer />
